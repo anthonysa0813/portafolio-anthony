@@ -1,0 +1,73 @@
+.proyectsSection {
+}
+.batataBit {
+  background: linear-gradient(207.8deg, #201e1c 16.69%, #f7931a 100%);
+}
+.lasfamStore {
+  background-color: aliceblue;
+  color: var(--black);
+}
+
+.proyectContent {
+  display: flex;
+  /* height: 600px; */
+  flex-direction: column;
+  /* gap: 2rem; */
+}
+.columnOne {
+  flex: 1 0 100%;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-block-start: 1rem;
+}
+
+.columnOne img {
+  height: inherit;
+  width: 50%;
+  object-fit: cover;
+}
+.columnTwo {
+  flex: 1 0 100%;
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+  /* padding-inline: 1rem; */
+  /* align-items: center; */
+}
+.columnTwo p {
+  /* color: var(--gray10); */
+}
+
+.contentButton {
+  display: flex;
+  gap: 1rem;
+}
+@media screen and (min-width: 744px) {
+  .proyectContent {
+    gap: 2rem;
+  }
+}
+@media screen and (min-width: 500px) {
+  .columnOne {
+    flex: 1 0 50%;
+    padding-block-start: 0;
+  }
+  .columnTwo {
+    flex: 1 0 50%;
+    padding: 0;
+  }
+  .proyectContent {
+    flex-direction: row;
+    height: 600px;
+  }
+  .columnOne img {
+    height: inherit;
+    width: 100%;
+    object-fit: contain;
+  }
+}
