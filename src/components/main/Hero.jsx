@@ -2,6 +2,7 @@ import React from "react";
 import "./hero.css";
 import avatar from "../../images/anthony.png";
 import Button from "@material-ui/core/Button";
+import pdf from "../../images/pdf/cv-anthony.pdf";
 
 const Hero = () => {
   return (
@@ -19,7 +20,7 @@ const Hero = () => {
           comprender los problemas y las circunstancias de los clientes.
         </p>
         <div className="contentButton ">
-          <Button variant="outlined" color="info">
+          <Button variant="outlined" color="info" href={pdf} download>
             Descargar Currículum
           </Button>
         </div>
