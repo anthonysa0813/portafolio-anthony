@@ -21,7 +21,7 @@ const Hero = () => {
         </p>
         <div className="contentButton ">
           <Button variant="outlined" color="info" href={pdf} download>
-            Descargar Currículum
+            Descargar currículum
           </Button>
         </div>
       </div>
