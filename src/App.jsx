@@ -31,7 +31,7 @@ Batatabit te ayuda a navegar entre los diferentes precios y tendencias."
         description="Escucha tu música favorita sin interrupciones, la mejora plataforma musical del mundo."
         imagePage={spotifu}
         codeUrl="https://github.com/anthonysa0813/spotifu"
-        proyectUrl="https://hardcore-shaw-f30e73.netlify.app/"
+        proyectUrl="https://jolly-beaver-6c1b4f.netlify.app/"
       />{" "}
       <Poryects
         title="LasfamStore"
