@@ -5,6 +5,7 @@ import Poryects from "./components/proyects/Poryects";
 import landingBatata from "./images/landing-page.png";
 import spotifu from "./images/spotifu.png";
 import lasfam from "./images/lasfamstore.png";
+import blockMaster from "./images/blockBuster.png";
 import StackLenguages from "./components/stackLenguages/StackLenguages";
 
 const App = () => {
@@ -34,11 +35,11 @@ Batatabit te ayuda a navegar entre los diferentes precios y tendencias."
         proyectUrl="https://jolly-beaver-6c1b4f.netlify.app/"
       />{" "}
       <Poryects
-        title="LasfamStore"
-        description="Tienda online de los mejores artículos deportivos al alcance de tus bolsillos."
-        imagePage={lasfam}
-        codeUrl="https://github.com/anthonysa0813/lasfamStore"
-        proyectUrl="https://focused-meitner-a432a1.netlify.app/"
+        title="Block Master"
+        description="Busca películas y encuentra la mejor información sobre ellas en Block Master"
+        imagePage={blockMaster}
+        codeUrl="https://github.com/anthonysa0813/blockBuster"
+        proyectUrl="https://nifty-mahavira-10df6b.netlify.app/"
         backgroundClass="lasfamStore"
       />
       <StackLenguages />
