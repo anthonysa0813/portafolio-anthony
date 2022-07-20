@@ -1,4 +1,5 @@
 .stackIcons {
+  background-color: var(--black);
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;

@@ -21,6 +21,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.headPolygon {
+  /* clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%); */
+  clip-path: polygon(0% 0%, 100% 0, 100% 90%, 0% 100%);
+}
+
 * > p {
   color: (--gray10);
 }
@@ -54,6 +60,31 @@ code {
 }
 .contact span {
   font-size: 1.5rem;
+}
+
+.mt-2 {
+  margin-block: 3rem;
+}
+
+.red {
+  color: rgb(243, 113, 113);
+}
+
+.blue {
+  color: rgb(53, 53, 249);
+}
+
+.stackBox {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.stackBox span {
+  padding: 0.25rem 0.5rem;
+  border: 1px solid var(--blue-primary);
+  color: var(--blue-primary);
+  border-radius: 0.25rem;
 }
 
 @media screen and (min-width: 480px) {
